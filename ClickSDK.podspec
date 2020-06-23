@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   framework_filename = "#{pod_name}.framework"
   
   s.name         = pod_name
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A managed payment Click ios SDK"
   s.description  = "A managed payment Click ios SDK that allows iOS developers to create mobile payments in an Click Merchants client application."
   s.homepage     = "https://github.com/easybookinguz/ClickSDK"
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
       THE SOFTWARE.
         LICENSE' }
   s.author       = "Easybooking"
-  s.platform     = :ios, "12.5"
-  s.ios.deployment_target = "12.5"
+  s.platform     = :ios, "13.0"
+  s.ios.deployment_target = "13.0"
   s.source       = { http: "https://github.com/easybookinguz/ClickSDK/releases/download/#{s.version}/#{framework_filename}.zip" }
   s.source_files = "#{framework_filename}/**/*.{h,hh}"
   s.public_header_files = "#{framework_filename}/Headers/*.{h,hh}"
