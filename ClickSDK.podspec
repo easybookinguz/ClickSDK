@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   framework_filename = "#{pod_name}.framework"
   
   s.name         = pod_name
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A managed payment Click ios SDK"
   s.description  = "A managed payment Click ios SDK that allows iOS developers to create mobile payments in an Click Merchants client application."
   s.homepage     = "https://github.com/easybookinguz/ClickSDK"
